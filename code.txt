@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Palu - Sauvons des vies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-bug"></i> Stop Palu
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#symptomes">Symptômes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#prevention">Prévention</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#temoignages">Témoignages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-white text-center py-5" style="background-image: url('https://images.unsplash.com/photo-1539393412080-a68de18a3a82?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1vc3F1aXRvfGVufDB8fDB8fHww'); background-size: cover; background-position: center; filter: blur(0.8px);"> 
+        <div class="container p-5" style="filter: blur(0);">
+            <h1 class="display-4" style="font-weight: bold;">Stop Palu, Sauvons des vies</h1>
+            <p class="lead" style="font-size: 30px;">Le paludisme est une maladie grave mais évitable et traitable. Informons-nous et agissons ensemble.</p>
+            <a href="#symptomes" class="btn btn-warning btn-lg mt-3">Voir les symptômes</a>
+        </div>
+    </header>
+
+    <!-- Section Symptômes -->
+    <main class="container my-5" id="symptomes">
+        <h2 class="text-center mb-4">Symptômes du Paludisme</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 bg-warning text-white">
+                    <div class="card-body text-center">
+                        <i class="bi bi-thermometer-high" style="font-size: 3rem;"></i>
+                        <h5 class="card-title mt-3">Fièvre</h5>
+                        <p class="card-text">Une fièvre élevée, souvent cyclique, est l'un des symptômes les plus courants du paludisme.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-primary text-white">
+                    <div class="card-body text-center">
+                        <i class="bi bi-wind" style="font-size: 3rem;"></i>
+                        <h5 class="card-title mt-3">Frissons</h5>
+                        <p class="card-text">Accompagnés de sueurs, les frissons sont un signe distinctif de l'infection.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-success text-white">
+                    <div class="card-body text-center">
+                        <i class="bi bi-person-walking" style="font-size: 3rem;"></i>
+                        <h5 class="card-title mt-3">Grande Fatigue</h5>
+                        <p class="card-text">Une sensation de grande faiblesse et un épuisement général sont des signes fréquents.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Section Prévention -->
+    <section class="bg-light py-5" id="prevention">
+        <div class="container">
+            <h2 class="text-center mb-4">Conseils de Prévention</h2>
+            <div class="list-group">
+                <div class="list-group-item d-flex align-items-center">
+                    <i class="bi bi-bug-fill text-danger me-3" style="font-size: 1.5rem;"></i>
+                    Utiliser des moustiquaires imprégnées d'insecticide pour dormir.
+                </div>
+                <div class="list-group-item d-flex align-items-center">
+                    <i class="bi bi-water text-info me-3" style="font-size: 1.5rem;"></i>
+                    Éliminer les eaux stagnantes autour des habitations pour éviter la reproduction des moustiques.
+                </div>
+                <div class="list-group-item d-flex align-items-center">
+                    <i class="bi bi-hospital text-primary me-3" style="font-size: 1.5rem;"></i>
+                    Consulter rapidement un centre de santé en cas de symptômes.
+                </div>
+                <div class="list-group-item d-flex align-items-center">
+                    <i class="bi bi-bandaid text-primary fs-4 me-3"></i>
+                    Privilégiez les vêtements longs en soirée
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section class="py-5 bg-white" id="temoignages">
+        <div class="container">
+            <h2 class="text-center mb-4">Témoignages</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <p class="card-text">"Grâce aux moustiquaires distribuées dans notre village, le nombre de cas de paludisme a considérablement diminué."</p>
+                            <h6 class="text-primary mt-3">— Marie, Cayes</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <p class="card-text">"La sensibilisation dans notre école nous a permis de comprendre l’importance de la prévention."</p>
+                            <h6 class="text-primary mt-3">— Jean, Port-au-Prince</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <p class="card-text">"J’ai appris à reconnaître les symptômes à temps et à consulter un médecin rapidement."</p>
+                            <h6 class="text-primary mt-3">— Fatima, Cap-Haïtien</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formulaire de contact -->
+    <section class="py-5 bg-light" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contactez-nous</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom" placeholder="Votre nom" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Adresse e-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-send"></i> Envoyer
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3"><i class="bi bi-bug-fill me-2"></i>Stop Paludisme</h5>
+                    <p>Campagne de sensibilisation contre le paludisme</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3">Liens rapides</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white">Accueil</a></li>
+                        <li class="mb-2"><a href="#symptomes" class="text-white">Symptômes</a></li>
+                        <li class="mb-2"><a href="#prevention" class="text-white">Prévention</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>#124 Cayes, Haiti</li>
+                        <li class="mb-2"><i class="bi bi-telephone me-2"></i>+229 12 34 56 78</li>
+                        <li><i class="bi bi-envelope me-2"></i>contact@stoppaludisme.org</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="text-center">
+                <p>&copy; 2025 Stop Paludisme. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
